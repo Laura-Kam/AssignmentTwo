@@ -17,7 +17,7 @@
 
 # Screenshot of website:
 
-![Screenshot of website](/laurakambanis/screenshotwebsite.png)
+![Screenshot of website](https://github.com/Laura-Kam/AssignmentTwo/issues/1#issue-1299932156)
 
 
 # Version history
