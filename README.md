@@ -9,10 +9,15 @@
 
 # Link to deployed application
 
+[Link to deployed URL](https://laura-kam.github.io/AssignmentTwo/)
+
 # Link to Git-hub repo.
+
+[Link to repo](https://github.com/Laura-Kam/AssignmentTwo)
 
 # Screenshot of website:
 
+![Screenshot of website](/laurakambanis/screenshotwebsite.png)
 
 
 # Version history
