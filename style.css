@@ -53,10 +53,12 @@ ul {
     display: inline;
     line-height: 35px;
     margin-left: 130px;
+    flex-wrap: wrap;
    }
 
 .container-1{
     display:flex;
+    flex-wrap: wrap;
     padding: 20px;
     align-items: center;
     flex-direction: row;
@@ -65,18 +67,20 @@ ul {
     margin: 5px;
     border-color: b;
     text-align: center;
+    width: 100;
+    height: auto;
 
    }
 .box-1 {
+    background-image: url(https://images.pexels.com/photos/1735658/pexels-photo-1735658.jpeg?auto=compress&cs=tinysrgb&w=600);
     flex: 1;
     border-radius: 10px;
     margin: 10px;
     background-color: #4682B4;
-
 }
    
 .box-2 {
-    flex: 1;
+    flex: 1.5;
     margin: 10px;
     border-radius: 10px;
     background-color: #4682B4;
@@ -95,5 +99,13 @@ ul {
     text-align: center;
     line-height: 25%;
     margin: 5px;
-    height: 120px
+    height: 100px
 }
+
+@media screen and (max-width: 768px) {
+    #aboutMeSection,
+    .container-1 {
+      flex-direction: column;
+    }
+  }
+  
